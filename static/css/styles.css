@@ -1,0 +1,108 @@
+/* static/css/styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 100%;
+    max-width: 800px;
+    background: white;
+    padding: 30px;
+    margin: 50px auto;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+}
+h1 {
+    margin-bottom: 25px;
+    color: #333;
+}
+form {
+    margin-bottom: 25px;
+    text-align: left;
+}
+input[type="file"],
+input[type="text"],
+input[type="number"],
+label {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.checkbox-group {
+    text-align: left;
+    margin: 20px 0;
+}
+.checkbox-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+button {
+    background-color: #28a745; /* Green */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #218838;
+}
+video {
+    width: 100%;
+    max-height: 60vh; /* 60% of viewport height */
+    border-radius: 8px;
+    margin-top: 25px;
+}
+.back-button,
+.search-button {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.back-button {
+    background-color: #28a745; /* Green button */
+}
+.back-button:hover {
+    background-color: #218838;
+}
+.search-button {
+    background-color: #007BFF; /* Blue button */
+}
+.search-button:hover {
+    background-color: #0056b3;
+}
+.flash-message {
+    color: red;
+    margin-bottom: 15px;
+}
+.result {
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+    text-align: left;
+}
+.result:last-child {
+    border-bottom: none;
+}
+.result img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 10px;
+}

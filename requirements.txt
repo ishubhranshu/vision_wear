@@ -1,0 +1,8 @@
+Flask
+Werkzeug
+opencv-python
+ultralytics
+moviepy
+faiss-cpu
+numpy
+sentence-transformers

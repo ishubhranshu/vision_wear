@@ -1,0 +1,31 @@
+<!-- templates/search_results.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Search Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Search Results</h1>
+        {% if results %}
+            {% for res in results %}
+                <div class="result">
+                    <p><strong>Class:</strong> {{ res.class }}</p>
+                    <p><strong>Timestamp:</strong> {{ res.timestamp }} seconds</p>
+                    <p><strong>Bounding Box:</strong> {{ res.bbox }}</p>
+                    <p><strong>Frame Number:</strong> {{ res.frame_number }}</p>
+                    {% if res.image %}
+                        <img src="{{ res.image }}" alt="Frame {{ res.frame_number }}">
+                    {% else %}
+                        <p>Frame image not available.</p>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>No similar detections found.</p>
+        {% endif %}
+        <a href="{{ url_for('search') }}" class="back-button">Back to Search</a>
+    </div>
+</body>
+</html>
