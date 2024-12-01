@@ -1,11 +1,11 @@
-# YOLO Detection with FAISS Integration
+# VisionWear
 
 ![Project Logo](images/logo.png)
 <a href="https://www.flaticon.com/free-icons/clothing" title="clothing icons">Clothing icons created by Freepik - Flaticon</a>
 
 ## Introduction
 
-Welcome to the **YOLO Detection with FAISS Integration** project! This Flask-based web application empowers users to upload videos, perform real-time object detection using the YOLO (You Only Look Once) model, and efficiently search through detections using FAISS (Facebook AI Similarity Search). Whether you're analyzing surveillance footage, creating annotated videos, or conducting research, this tool provides a robust and user-friendly interface to streamline your workflow.
+Welcome to the VisionWear project! This Flask-based web application empowers users to upload videos, perform real-time object detection using the YOLO (You Only Look Once) model, and efficiently search through detections using FAISS (Facebook AI Similarity Search). Whether you're analyzing surveillance footage, creating annotated videos, or conducting research, this tool provides a robust and user-friendly interface to streamline your workflow.
 
 ## Features
 
