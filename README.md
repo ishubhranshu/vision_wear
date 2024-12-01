@@ -60,5 +60,5 @@ Follow these steps to set up the project on your local machine:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/your_project.git
-   cd your_project
+   git clone https://github.com/ishubhranshu/vision_wear.git
+   cd vision_wear
