@@ -1,6 +1,7 @@
 # YOLO Detection with FAISS Integration
 
-![Project Logo](static/images/logo.png) <!-- Replace with your project logo -->
+![Project Logo](logo.png) <!-- Replace with your project logo -->
+<a href="https://www.flaticon.com/free-icons/clothing" title="clothing icons">Clothing icons created by Freepik - Flaticon</a>
 
 ## Introduction
 
