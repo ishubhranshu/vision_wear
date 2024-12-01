@@ -34,6 +34,10 @@ Welcome to the VisionWear project! This Flask-based web application empowers use
 ![Search Results](images/5.png)  
 *Review the search results with detailed information and frame snapshots.*
 
+![Workflow]
+![demo](https://github.com/user-attachments/assets/de820134-09f3-4d82-b2e5-cb403b356417)
+*Complete Workflow*
+
 ## File Description
 
 Here's a brief overview of the project's directory structure and key files:
